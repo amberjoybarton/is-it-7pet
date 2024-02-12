@@ -1,5 +1,5 @@
 hostname=$(hostname)
-if [[ $hostname == *"farm"* || $hostname == *"pcs"* ]]; then
+if [[ $hostname == *"farm"* || $hostname == *"pcs"* || $hostname == *"node"* ]]; then
 	module load snippy/4.6.0
 	module load ariba/release-v2.14.6
 	module load snp-dists/0.7.0--hed695b0_0
