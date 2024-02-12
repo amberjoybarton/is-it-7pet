@@ -17,6 +17,7 @@ git clone https://github.com/amberjoybarton/is-it-7pet IsIt7PET
 ## Usage
 ```
 cd IsIt7PET
+chmod 777 ./find7PET.sh
 ```
 Input a tab-delimited file containing sample ids and the file locations of your fastq files or assemblies. Assemblies must end with the file extension ".fa".
 
