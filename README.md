@@ -1,6 +1,8 @@
 # Is it 7PET?
 Identifying whether a cholera sample belongs to the seventh pandemic El tor (7PET) sub-lineage based on sequencing data or an assembly. This method is most appropriate where you have a small number of _Vibrio cholerae_ samples you would like to identify as 7PET or non-7PET without having to build a tree using contextual genomes.
 
+![Vibrio cholerae wondering if it is 7PET](/AmI7PET.png)
+
 ## Installation
 Dependencies: 
 - snippy/4.6.0
