@@ -13,7 +13,7 @@ if(length(blast) > 0){
 for(i in blast){
 summary[nrow(summary)+1,1:4] = c(gsub("7petblast_", "", i), "No", "No", "No")
 x = read.table(paste0("blast_results/",i), header = F)
-summary[nrow(summary),which(colnames(summary)%in% x[which(x$V3 > 0),"V2"])] = "Yes"}}
+summary[nrow(summary),which(colnames(summary)%in% x[which(x$V3 > 90),"V2"])] = "Yes"}}
 
 dist = read.table("distanceref.txt", fill = T, header = T,  comment.char = "/")
 summary = merge(summary, dist, by.x = "Sample", by.y = "snp.dists", all.x = T)
