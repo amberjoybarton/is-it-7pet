@@ -31,6 +31,8 @@ Run the bash script:
 ```
 ./find7PET.sh inputfile.txt
 ```
+This script will use snippy and snp-dists to find the SNP distance from 7PET reference genome N16961. 
+
 ## Output
 This script will output a file summarising for each sample whether it contains the genes VC2346 (7PET specific), ctxA or ctxB (toxigenic _V. cholerae_ specific). It will also indicate the SNP distance from 7PET reference genome N16961, where a distance below 300 is indicative of a sample belonging to the 7PET sub-lineage.
 
