@@ -8,8 +8,6 @@ if [[ $hostname == *"farm"* || $hostname == *"pcs"* ]]; then
 fi
 
 snippy-multi $1 --ref N16961.fa --cpus 16 > runme.sh
-sed -i "s/snippy --outdir '\(.*\)'/\1\/snippy/g" "$file"
-mkdir snippy
 chmod 777 *
 ./runme.sh
 find . -type f -name "snps.consensus.subs.fa" -exec dirname {} \; | sort -u | xargs rm -r
