@@ -1,4 +1,3 @@
-R
 summary = as.data.frame(matrix(ncol = 4, nrow = 0))
 colnames(summary) = c("Sample", "VC2346", "ctxA", "ctxB")
 
