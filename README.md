@@ -44,7 +44,7 @@ The slowest but most accurate option will use snippy and snp-dists to find the S
 ```
 
 ## Output
-This script will output a file summarising for each sample whether it contains the genes VC2346 (7PET specific), ctxA or ctxB (toxigenic _V. cholerae_ specific). Depending on the option selected, it may also indicate the shared % hashes with 7PET reference genome N16961 (the higher this is, the more likely the sample is to be 7PET) or the SNP distance from N16961 (the lower this is, the more likely the sample is to be 7PET).
+This script will output a file "Is_it_7PET.txt" summarising for each sample whether it contains the genes VC2346 (7PET specific), ctxA or ctxB (toxigenic _V. cholerae_ specific). Depending on the option selected, it may also indicate the shared % hashes with 7PET reference genome N16961 (the higher this is, the more likely the sample is to be 7PET) or the SNP distance from N16961 (the lower this is, the more likely the sample is to be 7PET).
 
 | Sample   | VC2346 | ctxA | ctxB  | N16961_shared_hashes | dist_N16961 | Is_7PET |
 | -------- | ------ | ---- | ----  |  -------------------- | ---------- | --------|
