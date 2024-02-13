@@ -78,4 +78,4 @@ rm clean*
 fi
 
 Rscript summariseresults.R
-rm -r ariba_results blast_results distanceref.txt runme.sh mash_results
+rm -rf ariba_results blast_results distanceref.txt runme.sh mash_results
